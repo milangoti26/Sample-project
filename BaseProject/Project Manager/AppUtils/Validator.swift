@@ -9,6 +9,7 @@ import Foundation
 
 class Validator: NSObject {
     
+    
     class var sharedInstance :Validator {
         struct Singleton {
             static let instance = Validator()
